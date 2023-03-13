@@ -42,3 +42,37 @@ menuBars.addEventListener('click', toggleNav);
 navItems.forEach((nav) => {
   nav.addEventListener('click', toggleNav);
 });
+
+
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Czech')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Danish')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('Dutch')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('French')
+    .pauseFor(2500)
+    .deleteAll()
+    
+    .typeString('German').pauseFor(2500)
+    .deleteAll()
+    .typeString('Italian').pauseFor(2500)
+    .deleteAll()
+    .typeString('Norwegian').pauseFor(2500)
+    .deleteAll()
+    .typeString('Spanish').pauseFor(2500)
+    .deleteAll()
+    .typeString('Slovak')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Swedish')
+    .start();
