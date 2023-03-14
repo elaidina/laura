@@ -248,6 +248,7 @@ nav li:nth-of-type(10) {
 
 .menu-bars {
   background-color: #CB1C8D;
+  
   padding: 1rem;
   border-radius: 50%;
   position: fixed;
@@ -320,6 +321,7 @@ section#home a {
   background-color: #CB1C8D;
   padding: 1rem;
   border-radius: 10%;
+  
 }
 
 
@@ -330,6 +332,33 @@ section#home a {
   border-radius: 5%;
   padding: 1rem;
 }
+
+
+.infosection {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+
+.info {
+  background-color: #000000a8;
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 2rem;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #CB1C8D;
+  margin: 1rem;
+}
+
 
 section#about {
   background-color: var(--navColor2);
