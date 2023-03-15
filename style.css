@@ -349,8 +349,8 @@ section#home a {
   font-size: 1rem;
   border-radius: 50%;
   padding: 2rem;
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
   display: flex;
   flex-direction: row;
   align-items: center;
