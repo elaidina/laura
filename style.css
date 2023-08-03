@@ -337,7 +337,7 @@ section#home a.laura {
   border-radius: 50%;
   color: var(--primaryColor);
   border-bottom: 1px solid var(--primaryColor);
-  bottom: 5rem;
+  bottom: 10rem;
   right: 2rem;
   z-index: 2;
   padding: 1rem;
